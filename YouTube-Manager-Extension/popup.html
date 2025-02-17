@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>YouTube Manager</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h2>YouTube Manager</h2>
+    
+    <input type="text" id="search" placeholder="Search videos...">
+    <select id="category">
+        <option value="General">General</option>
+        <option value="Tutorials">Tutorials</option>
+        <option value="Entertainment">Entertainment</option>
+        <option value="Work">Work</option>
+    </select>
+    
+    <button id="addVideo">Add Video</button>
+    
+    <ul id="videoList"></ul>
+
+    <button id="export">Download Backup</button>
+    <input type="file" id="import" />
+
+    <label>
+        <input type="checkbox" id="darkModeToggle"> Dark Mode
+    </label>
+
+    <script src="popup.js"></script>
+</body>
+</html>
