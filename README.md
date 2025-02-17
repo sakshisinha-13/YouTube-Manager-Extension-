@@ -31,7 +31,5 @@ The extension will now be available in your browser.
 Usage
 
 Right-click on a YouTube video page → Click "Save Video to YouTube Manager".
-
 Open the extension popup to search, categorize, and manage saved videos.
-
 Use the Export/Import option to backup or restore video data.
